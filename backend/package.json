@@ -1,0 +1,18 @@
+{
+  "name": "revenue-recovery-server",
+  "version": "1.0.0",
+  "description": "Express API server for AI Revenue Recovery Agent in JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "pipeline": "node runPipeline.js",
+    "test": "node --test --test-concurrency=1 tests/*.test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "*",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

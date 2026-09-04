@@ -1,0 +1,33 @@
+﻿# Environment variables and API keys (CRITICAL - DO NOT COMMIT)
+.env
+.env.local
+*.env
+
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+venv/
+env/
+ENV/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Local runtime SQLite database
+*.db
+*.db-shm
+*.db-wal
+backend/recovery.db*
+
+# Frontend build output
+frontend/dist/
+dist/
+
+# Temporary and log files
+*.log
+chrome_temp/
+arch_test.png
