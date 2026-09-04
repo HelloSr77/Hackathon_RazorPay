@@ -1,4 +1,4 @@
-﻿# Environment variables and API keys (CRITICAL - DO NOT COMMIT)
+# Environment variables and API keys (CRITICAL - DO NOT COMMIT)
 .env
 .env.local
 *.env
@@ -31,3 +31,4 @@ dist/
 *.log
 chrome_temp/
 arch_test.png
+*.mp4
